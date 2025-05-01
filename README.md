@@ -1,108 +1,72 @@
 ![ultrapass2025-05-01 13-36-28](https://github.com/user-attachments/assets/81be8bdf-b585-47ff-be03-8fd676f3efde)
 
-🔐 ULTRAPASS - Cyberpunk Password Generator 
+# 🔐 ULTRAPASS - Cyberpunk Edition
 
-Password Generator con interfaccia hi-tech e funzionalità avanzate  
-🚀 Panoramica 
+**ULTRAPASS** is a futuristic, stylish password generator built with PyQt5. It offers a glowing, cyberpunk-style GUI for generating secure passwords with real-time strength evaluation and customizable character options.
 
-ULTRAPASS  è un generatore di password sicure con un'interfaccia Cyberpunk Neon  realizzata in Python con PyQt5 .
-Progettato per sviluppatori, pentester e appassionati di cybertech, offre un'esperienza visiva futuristica e funzionalità avanzate come: 
+## 🚀 Features
 
-    Generazione personalizzata di password
-    Indicatore di sicurezza (Debole/Medio/Forte)
-    Copia negli appunti
-    Salvataggio su file
-    Effetti visivi (glow, pulsazioni, ombre digitali)
-     
+- Cyberpunk-styled PyQt5 interface
+- Password strength indicator based on entropy
+- Three security presets: Low, Medium, High
+- Custom character selection: uppercase, lowercase, numbers, symbols
+- Password length customization (4–64 characters)
+- Copy to clipboard with one click
+- Save password to file (.txt)
+- Animated "Powered By Roy Merlo V.2025" label
 
-🌟 Funzionalità Principali 
-Livelli di Sicurezza
-	
-Basso (8 caratteri), Medio (12 caratteri), Alto (16+ caratteri)
-Personalizzazione
-	
-Maiuscole, Minuscole, Numeri, Simboli
-Indicatore di Forza
-	
-Calcolo dell'entropia della password (Debole 🟡 / Medio 🔵 / Forte 🟢)
-Effetti Visivi
-	
-Glow, animazioni pulsanti, ombre digitali
-Esportazione
-	
-Salva la password e le impostazioni in un file
-.txt
- 
- 
-🧩 Requisiti 
+## 🖼️ Preview
 
-Per eseguire il programma, installa le seguenti dipendenze: 
+*Coming soon – add screenshots here if you want*
+
+## 🛠️ Requirements
+
+- Python 3.x
+- PyQt5
+- pyperclip
+
+Install dependencies via pip:
+
+```bash
+pip install pyqt5 pyperclip
+📦 Usage
+Run the app with:
+
 bash
- 
- 
-1
-pip install PyQt5 pyperclip
- 
- 
-🧪 Come Eseguire 
+Copy
+Edit
+python NEWPASS.PY
+📁 Options Explained
+Security Level: Sets character complexity and length:
 
-    Clona il repository:
-    bash
-     
+Low: Lowercase only, 8 characters
 
- 
-1
-2
-git clone https://github.com/il-tuo-username/ULTRAPASS.git
-cd ULTRAPASS
- 
- 
-Avvia l'applicazione:
-bash
- 
+Medium: Mixed case and numbers, 12 characters
 
-     
-    1
-    python ultrapass.py
-     
-     
-    Interagisci con l'interfaccia:
-        Seleziona il livello di sicurezza
-        Personalizza i caratteri (maiuscole, minuscole, numeri, simboli)
-        Genera la password
-        Usa "Copia Appunti" o "Salva su File"
-         
-     
+High: Full charset, 16 characters
 
-Aggiungi qui uno screenshot dell'interfaccia Cyberpunk per mostrare il look futuristico. 
-📄 Licenza 
+Password Options: Choose which character types to include manually
 
-MIT License – puoi modificare e ridistribuire il codice liberamente.
-Consulta il file LICENSE  per ulteriori informazioni. 
-🤝 Contributi 
+Buttons:
 
-Contributi sono benvenuti!   
+Generate Password: Creates a password with selected options
 
-    Forka il progetto  
-    Crea un branch (git checkout -b feature/cyberpunk)  
-    Commit delle modifiche (git commit -m 'Aggiunta neon glow')  
-    Push sul branch (git push origin feature/cyberpunk)  
-    Apri una Pull Request
-     
+Copy to Clipboard: Copies the generated password
 
-👤 Contatto 
+Save to File: Saves the password and options to a .txt file
 
-Roy Merlo – GitHub 
-Progetto: GitHub ULTRAPASS  
-💡 Ispirazione 
+Reset: Resets the form to default (Medium security)
 
-Realizzato per chi cerca un password generator moderno, adatto a sviluppatori, pentester o appassionati di cybertech.   
-📢 Feedback 
+🔒 Password Strength
+Strength is calculated using entropy and classified as:
 
-Hai idee per miglioramenti? Apri un issue su GitHub!
-Esempi: tema chiaro, crittografia AES, integrazione con database.   
-⭐ Stargazers 
+🔴 Weak (entropy < 40)
 
-Se ti piace il progetto, lascia una ⭐️! Aiuta a diffonderlo.   
+🟡 Medium (entropy 40–80)
 
-ULTRAPASS V.2025  | Powered by Roy Merlo   
+🟢 Strong (entropy > 80)
+
+✨ Author
+Developed by Roy Merlo
+Version: 2025
+
